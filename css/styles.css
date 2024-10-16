@@ -9,6 +9,13 @@ html {
 body {
     font-family: "Roboto", sans-serif;
 }
+:root {
+    --dark-background-color: #1F2937;
+    --main-text-color: #F9FAF9;
+    --secondary-text-color: #E5E7EB;
+    --butto-color: #3882F6;
+    --info-text-color: #1F2937;
+}
 /* Globales */
 h1 {
     font-size: 4.8rem;

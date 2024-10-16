@@ -11,71 +11,76 @@
     <title>Landing page</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Header logo</div>
-        <nav> <!--Navbar-->
-            <ul>
-                <li><a href="">header link one</a></li>
-                <li><a href="">header link two</a></li>
-                <li><a href="">hheader link three</a></li>
-            </ul>
-        </nav>
+    <header class="navbar">
+        <div class="navbar-container container">
+            <div class="logo">Header Logo</div>
+            <nav class="links"> <!--Navbar-->
+                <ul>
+                    <li><a href="">header link one</a></li>
+                    <li><a href="">header link two</a></li>
+                    <li><a href="">hheader link three</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section> <!--Cotenedio primario de la web-->
-        <div>
-            <h1>This website is awasome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <button>Sign up</button>
-        </div>
+    <section class="first-part">  <!--Cotenedio primario de la web-->
+        <div class="first-part-container container">
+            <div class="first-part-info">
+                <h1>This website is awasome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                <button class="button">Sign up</button>
+            </div>
 
-        <div>
-            <p>this is a placeholder for an image</p>
+            <div class="first-part-image">
+                <p>this is a placeholder for an image</p>
+            </div>
         </div>
     </section>
 
-    <section> <!--Contenido con las cards-->
+    <section class="container-sm"> <!--Contenido con las cards-->
         <h2>Some random information.</h2>
-        <div>
-            <div>
-                <div></div>
+        <div class="cards-container">
+            <div class="card">
+                <div class="cube"></div>
                 <p>this is some subtext under an illustration or image</p>
             </div>
 
-            <div>
-                <div></div>
+            <div class="card">
+                <div class="cube"></div>
                 <p>this is some subtext under an illustration or image</p>
             </div>
 
-            <div>
-                <div></div>
+            <div class="card">
+                <div class="cube"></div>
                 <p>this is some subtext under an illustration or image</p>
             </div>
 
-            <div>
-                <div></div>
+            <div class="card">
+                <div class="cube"></div>
                 <p>this is some subtext under an illustration or image</p>
             </div>
         </div>
     </section>
 
-    <section> <!--Contenido con la frase-->
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <h3>Thor, God of Thunder</h3>
+    <section class="legend-section">
+        <div class="container-sm">
+            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <h3>-Thor, God of Thunder</h3>
+        </div> <!--Contenido con la frase-->
     </section>
 
-    <section>
-        <div>
+    <section class="button-section">
+        <div class="button-section-container">
             <div>
                 <h3>Call to action! it's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-
-            <button>Sign up</button>
+            <button class="button">Sign up</button>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer-page">
         <p>Copyright &copy; The Odin Project 2021</p>
     </footer>
 </body>

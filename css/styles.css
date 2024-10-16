@@ -11,18 +11,169 @@ body {
 }
 :root {
     --dark-background-color: #1F2937;
+    --gray-background-color:#E5E7EB;
     --main-text-color: #F9FAF9;
-    --secondary-text-color: #E5E7EB;
-    --butto-color: #3882F6;
-    --info-text-color: #1F2937;
+    --secondary-text-color: #BDC1C7;
+    --button-color: #3882F6;
 }
 /* Globales */
 h1 {
     font-size: 4.8rem;
+    margin: 0;
+    color: var(--main-text-color);
 }
 p {
     font-size: 1.8rem;
+    color: var(--secondary-text-color);
 }
 h2 {
     font-size: 3.6rem;
+    color: var(--info-text-color);
+    font-weight: 600;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.button {
+    width: 15rem;
+    height: 5rem;
+    border-radius: .8rem;
+    font-size: 2rem;
+    background: var(--button-color);
+    border: 0;
+    cursor: pointer;
+    color: var(--main-text-color);
+    font-weight: 600;
+}
+.container-sm {
+    max-width: 90rem;
+    text-align: center;
+    padding: 10rem 0;
+    margin: 0 auto;
+}
+/* Header */
+.navbar {
+    background-color: var(--dark-background-color);
+    padding: 2.5rem 0;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: var(--main-text-color);
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.navbar ul {
+    display: flex;
+    gap: 2.4rem;
+}
+.navbar a {
+    color: var(--secondary-text-color);
+}
+/* Primera parte */
+.first-part {
+    background-color: var(--dark-background-color);
+    padding: 10rem 0;
+}
+.first-part-container {
+    display: flex;
+    justify-content: space-between;
+}
+.first-part-info {
+    max-width: 45rem;
+}
+.first-part-image {
+    background-color: #6D747D;
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-part-image p {
+    color: var(--main-text-color);
+}
+/* Sección de cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+}
+.cube {
+    width: 15rem;
+    height: 15rem;
+    border: .4rem solid var(--button-color);
+    border-radius: .8rem;
+}
+/* Sección del legend */
+.legend-section {
+    background: var(--gray-background-color);
+}
+.legend-section p {
+    font-style: italic;
+    font-weight: 300;
+    text-align: justify;
+    color: var(--dark-background-color);
+    font-size: 3.6rem;
+    margin: 0;
+}
+.legend-section h3 {
+    font-weight: 900;
+    color:var(--dark-background-color);
+    font-size: 2.3rem;
+    text-align: end;
+    margin: 0;
+}
+/* Sección del botón */
+.button-section-container {
+    display: flex;
+    background: var(--button-color);
+    width: 120rem;
+    height: 15rem;
+    border-radius: .8rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+.button-section-container button {
+    border: .2rem solid var(--main-text-color);
+}
+.button-section-container h3 {
+    font-size: 2.6rem;
+    color: var(--main-text-color);
+}
+.button-section-container p {
+    color: var(--gray-background-color);
+}
+.button-section-container p, .button-section-container h3 {
+    margin: 0;
+}
+.button-section {
+    padding: 10rem 0;
+}
+/* Footer */
+.footer-page {
+    background-color: var(--dark-background-color);
+    padding: 2rem 0;
+}
+.footer-page p {
+    margin: 0;
+    text-align: center;
 }
